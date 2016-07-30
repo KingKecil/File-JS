@@ -14,7 +14,7 @@ var score=0;
 		 
 
  
- 		$.getJSON('activity.json', function(data) {
+ 		$.getJSON('https://cdn.rawgit.com/KingKecil/File-JS/master/activity.json', function(data) {
 
 		for(i=0;i<data.quizlist.length;i++){ 
 			questionBank[i]=new Array;
